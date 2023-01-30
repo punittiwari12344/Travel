@@ -1,0 +1,270 @@
+.slider{
+position: relative;
+padding:1rem 0rem 1rem 0rem;
+height: auto;
+width: 100%;
+}
+
+img{
+    height: auto;
+    width: 100%;
+    transition: all 2000ms ease-out;
+}
+.slider h1{
+    position: absolute;
+    background: white;
+    font-size: 5rem;
+    text-align: center;
+    color: #ffce14;
+    border: 2px solid black;
+    top: 30%;
+    left: 40%;
+    
+}
+.formet{
+    margin-bottom: 3rem;
+
+}
+
+  .contant h1{
+      text-align: center;
+      padding-top: 4px;
+      
+      /* font-family: "roboto"; */
+      font-size: 80px;
+      
+  }
+
+  .trip{
+      display: inline;
+      padding-right: 120px;
+      padding-left: 50px;
+      flex-direction: row;
+      overflow: hidden  ;
+  }
+  .trip-item{
+      display: inline-flex;
+      width: 24vh;
+      margin: 10px 15px;
+      padding-top: 20px;
+    
+      justify-items: center;
+      flex-direction: column;
+  }
+  .lines{
+      text-align: center;
+  }
+ .S2{
+    text-align: center;
+    background-color: #ffce14;
+ }
+ .P1 h1{
+     font-weight: bold;
+ }
+ .P1 p{
+     width: 50vw;
+     margin-left: 24rem;
+     font-weight: bold;
+    margin-top: 20px;
+     text-align: center;
+     
+ }
+ .btn-1 button{
+     background: blue;
+     color: white;
+     border-radius: 5px solid black;
+     margin-bottom: 0.5rem;
+     font-weight: bold;
+     font-size: 1.8rem;
+ }
+
+ .btn-1 button:hover{
+     background: rgb(121, 101, 101);
+     color: white;
+ }
+ 
+ 
+ footer{
+     background-color: #ffce14;
+     /* width: 100vw; */
+     text-align: center;
+     /* height: auto; */
+ }
+ /* .f-2 p{
+     margin-bottom: 0rem;
+ } */
+ .f-1 p{
+    margin-bottom: 0rem;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .containerr {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 2rem;
+  }
+
+  .wid-100{
+    width: 100%;
+    /* background-color: rgb(226, 118, 118); */
+    display: flex;
+  }
+
+  .wid-50A{
+    width: 50%;
+    margin: 0 25px;
+    padding: 0 40px;
+}
+
+
+  .wid-50A-h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.wid-50A-span{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #0f2453;
+}
+
+.wid-50A-p{
+    color: rgb(228, 227, 227);
+    margin: 50px 0;
+}
+
+.wid-50A-inputnmae{
+    width: 80%;
+    max-width: 500px;
+    display: block;
+    border: 1px solid rgb(228, 227, 227);
+    outline: none;
+    height: 50px;
+    background: rgb(228, 227, 227);
+    padding: 15px;
+    color: black;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.wid-50A-inputmobile{
+    width: 80%;
+    max-width: 500px;
+    display: block;
+    border: 1px solid rgb(228, 227, 227);
+    outline: none;
+    height: 50px;
+    background: rgb(228, 227, 227);
+    padding: 15px;
+    color: black;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.wid-50A-inputtextarea{
+    width: 80%;
+    max-width: 500px;
+    display: block;
+    border: 1px solid  rgb(228, 227, 227);
+    outline: none;
+    height: 100px;
+    background: rgb(228, 227, 227);
+    padding: 15px;
+    color: var(--black);
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.wid-50A-inputbutton{
+    cursor: pointer;
+    background: #0f2453;
+    border: none;
+    color: rgb(252, 249, 249);
+    padding: 10px 30px;
+    font-weight: 500;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    box-shadow: 3px 3px 10px 0 rgb(0 0 0 / 30%);
+}
+
+.wid-50B{
+    width: 50%;
+    margin: 0 25px;
+    padding: 0 40px;
+    border-left: 1px solid rgb(228, 227, 227);
+    text-align: left;
+}
+
+.wid-50B-h2{
+    margin: 0 0 50px;
+}
+.wid-50B-span{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 44px;
+    color: #0f2453;
+    display: inline-block;
+}
+
+.wid-50B-p1{
+    width: 60%;
+    margin-bottom: 15px;
+}
+.wid-50B-p1-a{
+    text-decoration: none;
+    
+}
+
+.wid-50B-p1-span{
+    color: #0f2453;
+}
+
+.wid-50B-p2{
+    width: 60%;
+    margin-bottom: 15px;
+}
+.wid-50B-p2-a{
+    text-decoration: none;
+    
+}
+
+.wid-50B-p2-span{
+    color: #0f2453;
+}
+.wid-50B-p2-a-img{
+    width: 30px;
+    margin-bottom: 100px;
+}
+  
+  
+ 
